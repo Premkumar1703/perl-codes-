@@ -1,0 +1,7 @@
+$DNA="ATGCAGATACGATACGAT";
+$DNA= ~tr/ATGC/atgc;
+print "The DNA sequence is: $DNA\n";
+$dna="atgacgactacttagac";
+$dna= ~tr/atgc/ATGC;
+print "The DNA sequence is : $dna\n";
+exit;
